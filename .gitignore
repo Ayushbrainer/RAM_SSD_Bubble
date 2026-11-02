@@ -1,0 +1,13 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.build
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

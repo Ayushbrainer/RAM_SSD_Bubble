@@ -1,0 +1,67 @@
+\documentclass[10pt]{article}
+\input{style}
+\geometry{margin=1.7cm}
+\setlength{\parskip}{0.4em}
+\titlespacing*{\section}{0pt}{0.8em}{0.4em}
+
+\begin{document}
+
+\doctitle{The 2026 Memory Price Surge and the AI Bubble}
+{Summary Report}
+{Group [\_\_\_] \quad$\cdot$\quad Ayush Bhatt (G2610412E) \& Bu Dinglin (\rule{1.8cm}{0.4pt}) \quad$\cdot$\quad Data Visualisation, NTU CCDS}
+
+\section*{1. Project objectives}
+
+Show with data \textbf{why RAM and SSD prices surged in 2025--26, who pays, who profits, and whether the AI spending behind it is a bubble}. Delivered as a 6-minute video built on eleven animated charts.
+
+\section*{2. Novel contributions}
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Three compiled datasets:} DDR4 chip contract prices (monthly, 2022--2026), Big Tech capex (quarterly, 2022--2025, from SEC filings) and SK hynix profit (quarterly, 4Q22--2Q26).
+  \item \textbf{The full cycle in one chart:} the chip price fell 62\% to \$1.30, then rose 20$\times$ to \$26, with three dated events marked (Figure~1).
+  \item \textbf{Spending vs price on one timeline:} capex rose 3.7$\times$ from 2024; prices followed from mid-2025 (Figure~2).
+  \item \textbf{Both sides:} PC prices +17\% for consumers; SK hynix went from a 3.4tn-won loss to a 60.5tn-won profit.
+  \item \textbf{A balanced bubble verdict:} write-downs and a slowdown, not a crash, with three scenarios for memory prices.
+\end{itemize}
+
+\begin{center}
+  \includegraphics[width=0.72\linewidth]{figures/05_dram_price_cycle.png}
+  \captionof{figure}{DDR4 8Gb contract price, Jan 2022 to Sep 2026, with three dated events.}
+\end{center}
+
+\section*{3. Technical challenges}
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Paywalled data:} we rebuilt the price series from monthly press reports and checked each value against its source.
+  \item \textbf{Irregular sampling:} only 18 months have a price, so we plot dots on a true date axis to keep the gaps visible.
+  \item \textbf{Mismatched sources:} capex datasets with different scopes stay in separate charts, with estimates marked.
+  \item \textbf{A confounder:} DDR4 is being phased out, which inflates its rise; we flag this and cross-check with DDR5 prices.
+  \item \textbf{Honest animation:} fixed scales and zero baselines in every clip, in one colourblind-safe palette.
+\end{itemize}
+
+\clearpage
+\section*{4. Conclusion}
+
+\begin{center}
+  \includegraphics[width=0.72\linewidth]{figures/11_capex_vs_price.png}
+  \captionof{figure}{Big Tech capex per quarter (top) and DDR4 contract price (bottom).}
+\end{center}
+
+The memory price surge is a side effect of the AI build-out: spending rose first, makers shifted capacity to AI, and prices followed. The squeeze reached consumers, including a reported 30--40\% cut in Nvidia RTX 50 supply. AI demand is real, but the build-out may run ahead of revenue. If spending slows, cyclical memory prices could fall as fast as they rose. Figure~2 shows the timing fits, though timing alone does not prove cause.
+
+\section*{5. Contributions by each student}
+
+\begin{tabularx}{\linewidth}{@{}p{2.6cm}p{2.5cm}X@{}}
+\toprule
+\textbf{Student} & \textbf{Matric ID} & \textbf{Contribution} \\
+\midrule
+Ayush Bhatt & G2610412E & Initial idea, initial draft, finding the datasets. \\
+\addlinespace
+Bu Dinglin & \rule{1.8cm}{0.4pt} & \textit{[To be completed: e.g. narration and recording, video editing, script review, fact-checking.]} \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.6em}
+{\footnotesize\color{muted} Sources: Silicon Analysts / DRAMeXchange; Epoch AI (SEC filings); SK hynix results releases; TrendForce; Gartner; Counterpoint Research; UBS via 24/7 Wall St.; Morgan Stanley via Benzinga; IoT Analytics. Full references in the report.}
+
+\end{document}

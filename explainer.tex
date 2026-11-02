@@ -1,0 +1,95 @@
+\documentclass[11pt]{article}
+\input{style}
+
+\begin{document}
+
+\doctitle{Project Walkthrough for Bu Dinglin}
+{A plain-English guide to the RAM/SSD and AI bubble project}
+{Group [\_\_\_] \quad$\cdot$\quad Ayush Bhatt (G2610412E) \& Bu Dinglin (\rule{1.8cm}{0.4pt}) \quad$\cdot$\quad Data as of 26 October 2026}
+
+\section*{The big idea}
+
+\begin{keybox}
+\textbf{One sentence:} AI data centres are buying up the world's memory, so RAM and SSD prices have roughly quadrupled. Whether that continues depends on whether AI spending is a lasting boom or a bubble.
+\end{keybox}
+
+This is our Data Visualisation course project. We submit two things: the \textbf{video} (6 minutes max) and the \textbf{2-page Summary Report}. Everything else supports those:
+\begin{itemize}
+  \item \texttt{summary.pdf}: the 2-page Summary Report we submit. Add your matric ID and your contribution in Section 5.
+  \item \texttt{RAM\_AI\_Bubble.pptx}: the deck we present and record from. Each slide plays one animated chart, and the narration is in the speaker notes.
+  \item \texttt{video\_script.pdf}: the same narration as a printable script. Ayush does the intro and the data story (Scenes 1--5); you take over at Scene 6 and do the conclusion.
+  \item \texttt{clips/}: the eleven animated charts as MP4 files, in case we edit the video outside PowerPoint.
+  \item \texttt{report.pdf}: the full argument with every source (9 pages). Use it to check any number.
+  \item \texttt{data/}: the three datasets we built, as CSV files.
+\end{itemize}
+
+\section*{The data we built}
+
+The course asks us to explore a dataset, so we compiled three time series from public sources:
+\begin{itemize}
+  \item \textbf{DDR4 chip contract price}, monthly, Jan 2022 to Sep 2026 (DRAMeXchange via Silicon Analysts). This is the star chart: it shows the 2022--23 bust (\$3.41 down to \$1.30) and the AI boom (up to \$26, 20$\times$ the low).
+  \item \textbf{Big Tech capex}, quarterly, 2022--2025, for Microsoft, Amazon, Alphabet, Meta and Oracle (Epoch AI, from SEC filings). It rose from \$37.6B to \$140.6B a quarter (3.7$\times$). This is the demand behind the shortage.
+  \item \textbf{SK hynix operating profit}, quarterly, 4Q22 to 2Q26 (company releases): from a 3.4tn-won loss to a 60.5tn-won profit. This shows who wins.
+\end{itemize}
+One caveat to know: DDR4 is being phased out by manufacturers, which exaggerates its price spike. Newer memory (DDR5) rose too, just less dramatically. The script says this, so keep it in.
+
+\section*{Glossary: the words you'll hear}
+
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{3.2cm}X@{}}
+\toprule
+\textnormal{\textbf{Term}} & \textbf{Meaning} \\
+\midrule
+DRAM & Working memory. The ``RAM'' in a PC, phone or server. \\
+NAND flash & Storage chips, the inside of an SSD, phone storage or a memory card. \\
+HBM & High-bandwidth memory. A stacked, very fast DRAM used in AI chips. Highly profitable, and it uses up factory capacity. \\
+Contract price & What big buyers like PC makers pay under supply deals. More reliable than shop prices. \\
+Spot price & The price for one-off, immediate purchases. Moves faster, and often turns first. \\
+Hyperscaler & The giant cloud companies: Amazon, Microsoft, Alphabet (Google), Meta and others. \\
+Capex & Capital expenditure: money spent on long-lasting things like data centres and chips. \\
+Depreciation & Spreading the cost of equipment over its useful life. AI chips are written off over about six years. \\
+Bill of materials & The total cost of the parts in a product. \\
+\bottomrule
+\end{tabularx}
+
+\section*{The story, section by section}
+
+\subsection*{1. How the memory market works}
+Only three companies, Samsung, SK hynix and Micron, make about 88\% of the world's DRAM. So when they change what they make, prices move for everyone. Memory also swings between shortage and glut: in late 2022, prices roughly halved and SK hynix made a record loss.
+
+\subsection*{2. Why prices rose}
+It's a four-step chain. AI spending exploded; memory makers shifted factories to the more profitable AI memory (HBM and server DRAM, now about half of DRAM supply); cloud giants locked in supply with long-term deals; and SSDs followed. The demand comes from data centres, so weaker laptop sales can't fix it.
+
+\subsection*{3. How big the increase is}
+A 32GB DDR5 kit went from about \$90 to \$425 in a year. Contract DRAM prices rose 58--63\% in one quarter, and NAND 70--75\%. Some prices are starting to soften: NAND spot prices dipped about 1\% in September 2026.
+
+\subsection*{4. Who pays}
+Mostly consumers. Gartner expects PC prices to rise 17\% in 2026. Memory can be close to 60\% of a \$400 phone's parts cost. Smaller manufacturers have the least buying power.
+
+\subsection*{5. When it eases}
+Not before 2027 for RAM. New factories add about 27\% more server memory in 2027, but SK hynix warns 2027 could be the tightest year yet. A Chinese competitor, CXMT, is ramping up.
+
+\subsection*{6--7. The AI bubble debate}
+Big Tech capex doubles to about \$1 trillion in 2026. The worry: that spending equals the cloud revenue meant to pay for it, depreciation will balloon, and debt is rising. The defence: valuations are far below the 2000 dot-com peak, demand is real, and most of it is paid from profits. Our middle view is that AI is real but probably overbuilt for a few years: write-downs, not a crash.
+
+\subsection*{8. How the two connect}
+Memory prices are a bet on AI spending. Boom continues: RAM stays expensive. Slowdown: prices drift down. Bubble deflates: prices could crash, as in 2022. These scenarios are our reasoning, not a sourced forecast, so always say ``if''.
+
+\section*{Questions we might get, and how to answer}
+
+\begin{description}[style=nextline,leftmargin=0pt,itemsep=0.5em]
+  \item[``Why don't memory makers just build more factories?'']
+  They are, but new capacity takes a year or more to build, qualify and ramp up. Most new supply arrives in 2027.
+  \item[``Is the \$90 to \$425 figure cherry-picked?'']
+  It's one kit's US retail price, so it's illustrative. That's why the report leans on contract prices from TrendForce, which show the same direction.
+  \item[``So is AI a bubble or not?'']
+  Neither side is clearly right. Even the ``no bubble'' analysis expects Big Tech's returns to fall below target from 2028. Our view is a slowdown with write-downs, not a collapse, and we say that's a judgement.
+  \item[``Why should a normal person care?'']
+  It already costs them: pricier PCs and phones, and RAM upgrades that cost four times as much.
+  \item[``How reliable are the numbers?'']
+  Most are forecasts or analyst estimates and may change. Some come via news sites quoting TrendForce or Gartner, whose full reports are paywalled. The report cites every source.
+\end{description}
+
+\section*{What's still open}
+Review the report and script, and flag anything that doesn't read clearly to you. Rehearse your part (Scene 6 to the conclusion, about 2.5 minutes), add your matric ID and contribution to the summary, then record. Before using any number in public, check it against the report's source list.
+
+\end{document}

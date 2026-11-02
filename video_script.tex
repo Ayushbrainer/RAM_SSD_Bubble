@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+\input{style}
+\geometry{top=1.7cm,bottom=1.7cm}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.2em}
+\setlength{\parskip}{0.35em}
+
+\usepackage{needspace}
+\newcommand{\scene}[4]{%
+  \needspace{7\baselineskip}\subsection*{#1 \hfill {\normalfont\color{muted}\small #2}}
+  {\small\color{muted}\textbf{On screen:} #3}\par\vspace{-0.2em}
+  \begin{keybox}#4\end{keybox}}
+
+\begin{document}
+
+\doctitle{Video Script: The 2026 Memory Price Surge and the AI Bubble}
+{14 slides, 11 animated clips, about 5 minutes}
+{Group [\_\_\_] \quad$\cdot$\quad Ayush Bhatt (G2610412E) \& Bu Dinglin (\rule{1.8cm}{0.4pt}) \quad$\cdot$\quad Data as of 26 October 2026}
+
+\textbf{How to use.} Present \texttt{RAM\_AI\_Bubble.pptx} and record it with PowerPoint's Record feature. Each slide's speaker notes hold the same narration, marked with who speaks. Ayush opens and takes the data story; Bu Dinglin takes over at Scene 6 and closes. About 654 words, roughly 5 minutes including the clips, inside the 6-minute cap. Target times assume about 140 words a minute.
+
+\section*{Part 1: Ayush Bhatt}
+{\color{muted}Introduction and the data story \quad$\cdot$\quad 0:00--2:36 \quad$\cdot$\quad about 346 words}
+
+\scene{Intro}{0:00--0:17}
+{Title slide.}
+{``Hi, I'm Ayush Bhatt, and this is Bu Dinglin. Our project looks at one of the strangest price stories of 2026: why computer memory suddenly became so expensive, and what that tells us about the AI boom.''}
+
+\scene{1. Hook}{0:17--0:38}
+{\texttt{01\_hook\_ram\_kit.mp4}: The \$90 and \$425 bars grow, then "4.7x in one year" appears.}
+{``A year ago, a 32-gigabyte kit of DDR5 RAM cost about ninety dollars. This August it cost four hundred and twenty-five: nearly five times as much for the same chips. It isn't inflation. It's what happens when artificial intelligence starts eating the world's memory supply.''}
+
+\scene{2. Who makes memory}{0:38--0:54}
+{\texttt{02\_market\_share.mp4}: Market-share bars grow, then "Top three: 87.6\%" appears.}
+{``Almost all of the world's RAM comes from three companies: Samsung, SK hynix and Micron, with nearly 88\% of the market between them. When those three change what they make, prices change for everyone.''}
+
+\scene{3. Why prices rose}{0:54--1:21}
+{\texttt{03\_cause\_chain.mp4}: Four boxes appear one by one.}
+{``Here's the chain. One: AI spending exploded. Two: memory makers followed the money into AI memory, which now takes about half of all DRAM supply. Three: the cloud giants signed long-term deals to lock in their share. Four: SSDs followed, because AI needs fast storage too. The demand comes from data centres, so buying fewer laptops won't fix it.''}
+
+\scene{4. The demand, in data}{1:21--1:44}
+{\texttt{04\_capex\_quarterly.mp4}: Quarterly stacked bars build from 2022 to 2025.}
+{``Here's link one in real numbers, from the companies' own filings. In early 2022, Microsoft, Amazon, Alphabet, Meta and Oracle spent about 38 billion dollars a quarter on data centres and equipment. By the end of 2025 it was 141 billion: nearly four times as much, with the take-off in 2024.''}
+
+\scene{5. The price cycle}{1:44--2:36}
+{\texttt{05\_dram\_price\_cycle.mp4}: The price line draws across 2022-2026; event markers 1, 2 and 3 appear as the line reaches them.}
+{``And here's what happened to the price of one memory chip, month by month. First, the bust: prices fell 62\%, to a dollar thirty by August 2023. ChatGPT launched in the middle of it, but AI hadn't reached memory prices yet. Then the boom. In June 2025 the makers announced they were phasing this chip out, and from there the line goes nearly vertical. By December, reports said Nvidia would cut supply of its RTX 50 graphics cards by 30 to 40\% because it couldn't get enough memory. Nvidia denied pausing production. By September 2026 the chip cost 26 dollars: twenty times its low. The phase-out exaggerates this chip's spike, but newer memory moved the same way. Over to Dinglin.''}
+
+\section*{Part 2: Bu Dinglin}
+{\color{muted}Impact, the bubble question and conclusion \quad$\cdot$\quad 2:36--5:04 \quad$\cdot$\quad about 308 words}
+
+\scene{6. Spending first, prices second}{2:36--3:03}
+{\texttt{11\_capex\_vs\_price.mp4}: Both panels draw left to right on one shared timeline.}
+{``Thanks, Ayush. Put the two side by side and the order is clear. Big Tech's spending takes off in 2024. Memory prices follow about a year later, from mid-2025. Timing alone doesn't prove cause, but it's exactly what you'd expect if AI demand is driving the shortage.''}
+
+\scene{7. Who pays}{3:03--3:16}
+{\texttt{06\_consumer\_impact.mp4}: Signed bars grow from zero.}
+{``Consumers pay. Gartner expects average PC prices to rise 17\% this year and PC shipments to fall about 10\%. Smartphone shipments are forecast to drop nearly 14\%.''}
+
+\scene{8. Who wins}{3:16--3:36}
+{\texttt{07\_skhynix\_profit.mp4}: Quarterly bars appear left to right, red losses first.}
+{``Memory makers win. SK hynix lost money for four straight quarters through 2023, up to 3.4 trillion won in a single quarter. In the second quarter of 2026 it made 60 trillion won, at a 76\% operating margin. Same company, three years apart.''}
+
+\scene{9a. Is it a bubble?}{3:36--3:56}
+{\texttt{08\_capex\_projection.mp4}: Annual capex bars grow, with the actual/estimate divider.}
+{``All of this rests on AI spending, and it's set to double again, to about a trillion dollars this year. For Amazon, Alphabet and Microsoft, that's roughly all of their cloud revenue, and skeptics warn of a huge depreciation bill and rising debt.''}
+
+\scene{9b. ...or not?}{3:56--4:17}
+{\texttt{09\_valuations.mp4}: Cisco 2000 bar, then today's AI leaders bar.}
+{``But this isn't 2000. At the dot-com peak, Cisco traded at around 200 times earnings. Today's AI leaders are around 22 to 25. Our middle view: the technology is real, but they're probably building faster than revenue can justify. Expect write-downs and a slowdown, not a crash.''}
+
+\scene{10. What happens next}{4:17--4:36}
+{\texttt{10\_scenarios.mp4}: Three scenario cards appear.}
+{``So memory prices are a bet on AI spending. If the boom continues, RAM stays expensive through 2027. If it slows, prices drift down. And if the bubble deflates, history says they could crash, as they halved in 2022.''}
+
+\scene{Conclusion}{4:36--5:04}
+{Conclusion slide with the three headline numbers.}
+{``To sum up: Big Tech's quarterly spending rose almost four times, a memory chip's price rose twenty times from its low, and memory makers now earn margins of 76\%. AI demand is real, but the build-out may be running ahead of revenue. So next time you check the price of RAM, you're reading a scoreboard for the AI boom. Thanks for watching.''}
+
+\section*{Production notes}
+\begin{itemize}
+  \item \textbf{Numbers to land:} 4.7x (Scene 1), 20x (Scene 5), the 76\% margin (Scene 8). Pause after each.
+  \item \textbf{Handover:} Ayush ends Scene 5 with ``Over to Dinglin''; Dinglin opens Scene 6 with ``Thanks, Ayush''.
+  \item \textbf{Hedges to keep:} the RTX 50 cut was \emph{reported} and Nvidia denied a full pause; Scene 6's ``timing alone doesn't prove cause''; every ``if'' in Scene 10.
+  \item \textbf{Rounded for speech:} ``nearly 88\%'' = 87.6\%; ``38'' and ``141 billion'' = \$37.6B and \$140.6B; ``about 10\%'' = 10.4\%; ``nearly 14\%'' = 13.9\%; ``almost four times'' = 3.7x.
+\end{itemize}
+
+\end{document}

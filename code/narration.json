@@ -1,0 +1,119 @@
+[
+ {
+  "scene": "Intro",
+  "speaker": "Ayush Bhatt",
+  "slide": "title",
+  "clip": null,
+  "screen": "Title slide.",
+  "text": "Hi, I'm Ayush Bhatt, and this is Bu Dinglin. Our project looks at one of the strangest price stories of 2026: why computer memory suddenly became so expensive, and what that tells us about the AI boom.",
+  "time": "0:00-0:17"
+ },
+ {
+  "scene": "1. Hook",
+  "speaker": "Ayush Bhatt",
+  "time": "0:17-0:38",
+  "clip": "01_hook_ram_kit",
+  "screen": "The $90 and $425 bars grow, then \"4.7x in one year\" appears.",
+  "text": "A year ago, a 32-gigabyte kit of DDR5 RAM cost about ninety dollars. This August it cost four hundred and twenty-five: nearly five times as much for the same chips. It isn't inflation. It's what happens when artificial intelligence starts eating the world's memory supply.",
+  "slide": "clip"
+ },
+ {
+  "scene": "2. Who makes memory",
+  "speaker": "Ayush Bhatt",
+  "time": "0:38-0:54",
+  "clip": "02_market_share",
+  "screen": "Market-share bars grow, then \"Top three: 87.6%\" appears.",
+  "text": "Almost all of the world's RAM comes from three companies: Samsung, SK hynix and Micron, with nearly 88% of the market between them. When those three change what they make, prices change for everyone.",
+  "slide": "clip"
+ },
+ {
+  "scene": "3. Why prices rose",
+  "speaker": "Ayush Bhatt",
+  "time": "0:54-1:21",
+  "clip": "03_cause_chain",
+  "screen": "Four boxes appear one by one.",
+  "text": "Here's the chain. One: AI spending exploded. Two: memory makers followed the money into AI memory, which now takes about half of all DRAM supply. Three: the cloud giants signed long-term deals to lock in their share. Four: SSDs followed, because AI needs fast storage too. The demand comes from data centres, so buying fewer laptops won't fix it.",
+  "slide": "clip"
+ },
+ {
+  "scene": "4. The demand, in data",
+  "speaker": "Ayush Bhatt",
+  "time": "1:21-1:44",
+  "clip": "04_capex_quarterly",
+  "screen": "Quarterly stacked bars build from 2022 to 2025.",
+  "text": "Here's link one in real numbers, from the companies' own filings. In early 2022, Microsoft, Amazon, Alphabet, Meta and Oracle spent about 38 billion dollars a quarter on data centres and equipment. By the end of 2025 it was 141 billion: nearly four times as much, with the take-off in 2024.",
+  "slide": "clip"
+ },
+ {
+  "scene": "5. The price cycle",
+  "speaker": "Ayush Bhatt",
+  "time": "1:44-2:36",
+  "clip": "05_dram_price_cycle",
+  "screen": "The price line draws across 2022-2026; event markers 1, 2 and 3 appear as the line reaches them.",
+  "text": "And here's what happened to the price of one memory chip, month by month. First, the bust: prices fell 62%, to a dollar thirty by August 2023. ChatGPT launched in the middle of it, but AI hadn't reached memory prices yet. Then the boom. In June 2025 the makers announced they were phasing this chip out, and from there the line goes nearly vertical. By December, reports said Nvidia would cut supply of its RTX 50 graphics cards by 30 to 40% because it couldn't get enough memory. Nvidia denied pausing production. By September 2026 the chip cost 26 dollars: twenty times its low. The phase-out exaggerates this chip's spike, but newer memory moved the same way. Over to Dinglin.",
+  "slide": "clip"
+ },
+ {
+  "scene": "6. Spending first, prices second",
+  "speaker": "Bu Dinglin",
+  "time": "2:36-3:03",
+  "clip": "11_capex_vs_price",
+  "screen": "Both panels draw left to right on one shared timeline.",
+  "text": "Thanks, Ayush. Put the two side by side and the order is clear. Big Tech's spending takes off in 2024. Memory prices follow about a year later, from mid-2025. Timing alone doesn't prove cause, but it's exactly what you'd expect if AI demand is driving the shortage.",
+  "slide": "clip"
+ },
+ {
+  "scene": "7. Who pays",
+  "speaker": "Bu Dinglin",
+  "time": "3:03-3:16",
+  "clip": "06_consumer_impact",
+  "screen": "Signed bars grow from zero.",
+  "text": "Consumers pay. Gartner expects average PC prices to rise 17% this year and PC shipments to fall about 10%. Smartphone shipments are forecast to drop nearly 14%.",
+  "slide": "clip"
+ },
+ {
+  "scene": "8. Who wins",
+  "speaker": "Bu Dinglin",
+  "time": "3:16-3:36",
+  "clip": "07_skhynix_profit",
+  "screen": "Quarterly bars appear left to right, red losses first.",
+  "text": "Memory makers win. SK hynix lost money for four straight quarters through 2023, up to 3.4 trillion won in a single quarter. In the second quarter of 2026 it made 60 trillion won, at a 76% operating margin. Same company, three years apart.",
+  "slide": "clip"
+ },
+ {
+  "scene": "9a. Is it a bubble?",
+  "speaker": "Bu Dinglin",
+  "time": "3:36-3:56",
+  "clip": "08_capex_projection",
+  "screen": "Annual capex bars grow, with the actual/estimate divider.",
+  "text": "All of this rests on AI spending, and it's set to double again, to about a trillion dollars this year. For Amazon, Alphabet and Microsoft, that's roughly all of their cloud revenue, and skeptics warn of a huge depreciation bill and rising debt.",
+  "slide": "clip"
+ },
+ {
+  "scene": "9b. ...or not?",
+  "speaker": "Bu Dinglin",
+  "time": "3:56-4:17",
+  "clip": "09_valuations",
+  "screen": "Cisco 2000 bar, then today's AI leaders bar.",
+  "text": "But this isn't 2000. At the dot-com peak, Cisco traded at around 200 times earnings. Today's AI leaders are around 22 to 25. Our middle view: the technology is real, but they're probably building faster than revenue can justify. Expect write-downs and a slowdown, not a crash.",
+  "slide": "clip"
+ },
+ {
+  "scene": "10. What happens next",
+  "speaker": "Bu Dinglin",
+  "time": "4:17-4:36",
+  "clip": "10_scenarios",
+  "screen": "Three scenario cards appear.",
+  "text": "So memory prices are a bet on AI spending. If the boom continues, RAM stays expensive through 2027. If it slows, prices drift down. And if the bubble deflates, history says they could crash, as they halved in 2022.",
+  "slide": "clip"
+ },
+ {
+  "scene": "Conclusion",
+  "speaker": "Bu Dinglin",
+  "time": "4:36-5:04",
+  "clip": null,
+  "screen": "Conclusion slide with the three headline numbers.",
+  "text": "To sum up: Big Tech's quarterly spending rose almost four times, a memory chip's price rose twenty times from its low, and memory makers now earn margins of 76%. AI demand is real, but the build-out may be running ahead of revenue. So next time you check the price of RAM, you're reading a scoreboard for the AI boom. Thanks for watching.",
+  "slide": "conclusion"
+ }
+]
