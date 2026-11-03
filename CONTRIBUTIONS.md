@@ -1,6 +1,6 @@
 # Contributions
 
-Data Visualisation project, Group [___]: *The 2026 Memory Price Surge and the AI Bubble*
+Data Visualisation project, Group 04: *The 2026 Memory Price Surge and the AI Bubble*
 
 Each member records their own contributions below. Add to your list as the project goes on.
 
@@ -10,7 +10,7 @@ Each member records their own contributions below. Add to your list as the proje
 - Initial draft
 - Finding the datasets
 
-## Bu Dinglin ( )
+## Bu Dinglin (G2609929D)
 
 -
 

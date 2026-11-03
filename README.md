@@ -1,11 +1,11 @@
 # The 2026 Memory Price Surge and the AI Bubble
 
-Data Visualisation project (NTU CCDS), Group [___]
+Data Visualisation project (NTU CCDS), Group 04
 
 | Student | Matric ID |
 |---|---|
 | Ayush Bhatt | G2610412E |
-| Bu Dinglin | |
+| Bu Dinglin | G2609929D |
 
 How AI spending pushed RAM and SSD prices up 20x from their 2023 low, who pays, who profits, and whether the AI build-out is a bubble.
 
@@ -13,7 +13,7 @@ How AI spending pushed RAM and SSD prices up 20x from their 2023 low, who pays, 
 
 | File | What it is |
 |---|---|
-| `summary.pdf` | 2-page Summary Report (still needs: group number, Bu Dinglin's matric ID and contribution) |
+| `summary.pdf` | 2-page Summary Report (still needs: Bu Dinglin's contribution) |
 | Recorded video | 6 minutes max, recorded from `RAM_AI_Bubble.pptx` |
 
 ## Files

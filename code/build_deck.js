@@ -58,8 +58,8 @@ pres.addSection({ title: 'Opening' });
 let sl = pres.addSlide({ masterName: 'TITLE_DARK', sectionTitle: 'Opening' });
 sl.addText('The 2026 Memory Price Surge and the AI Bubble', { placeholder: 'title' });
 sl.addText('How AI spending pushed memory prices up, and whether it is a bubble', { placeholder: 'body' });
-sl.addText([{ text: 'Ayush Bhatt (G2610412E)  ·  Bu Dinglin (__________)', options: { breakLine: true } },
-            { text: 'Group [___]  ·  Data Visualisation, NTU CCDS' }], {
+sl.addText([{ text: 'Ayush Bhatt (G2610412E)  ·  Bu Dinglin (G2609929D)', options: { breakLine: true } },
+            { text: 'Group 04  ·  Data Visualisation, NTU CCDS' }], {
   x: 0.6, y: 4.5, w: 5.6, h: 0.6, fontSize: 12, color: '9AA8B8', margin: 0, isTextBox: true, objectName: 'Byline' });
 // motif: the real DDR4 price series as a quiet native line chart
 const csv = fs.readFileSync(ROOT + '/data/ddr4_contract_price.csv', 'utf8').trim().split('\n').slice(1).map(l => l.split(','));
