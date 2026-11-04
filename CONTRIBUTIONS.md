@@ -12,7 +12,7 @@ Each member records their own contributions below. Add to your list as the proje
 
 ## Bu Dinglin (G2609929D)
 
--
+- Idea brainstrom, visualisation modification, report finalisation and meeting organisation.
 
 ## Log
 

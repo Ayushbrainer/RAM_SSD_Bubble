@@ -13,7 +13,7 @@ How AI spending pushed RAM and SSD prices up 20x from their 2023 low, who pays, 
 
 | File | What it is |
 |---|---|
-| `summary.pdf` | 2-page Summary Report (still needs: Bu Dinglin's contribution) |
+| `summary.pdf` | 2-page Summary Report |
 | Recorded video | 6 minutes max, recorded from `RAM_AI_Bubble.pptx` |
 
 ## Files
